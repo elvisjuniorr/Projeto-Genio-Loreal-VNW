@@ -1,6 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Sevillana&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Sevillana&display=swap');
+
+$imagem_fundo: 'src/assets/palacio.png';
+
 html {
-  background-image: url("src/assets/palacio.png");
+  background-image: url($imagem_fundo);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -26,6 +29,7 @@ h1 {
   text-align: center;
 }
 
+
 img {
   max-width: 43rem;
   height: auto;
@@ -50,22 +54,27 @@ button {
   h1 {
     font-size: 2.5rem;
   }
+
   img {
     width: 30rem;
   }
+
   button {
     font-size: 2rem;
     width: 15rem;
     height: 3rem;
   }
 }
+
 @media (max-width: 781px) {
   h1 {
     font-size: 1.25rem;
   }
+
   img {
     width: 15rem;
   }
+
   button {
     font-size: 1.25rem;
     width: 10rem;
@@ -73,5 +82,3 @@ button {
     background-color: #B74794;
   }
 }
-
-/*# sourceMappingURL=App.css.map */
