@@ -14,9 +14,9 @@ function App() {
       <div className="container">
         <h1>"Liberte a magia da programação com a lâmpada de Aladim."</h1>
         {GenioVisivel ? (
-          <img src="src/assets/lampadaCG.svg" />
+          <img src="/lampadaCG.svg" />
         ) : (
-          <img src="src/assets/lampadaSG.svg" />
+          <img src="/lampadaSG.svg" />
         )}
         <button onClick={modificarImagem}>Clique aqui</button>
       </div>
